@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Ciencia de Datos - Santiago</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: #E0E0E0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #1F1F1F;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    nav ul li a {
+      color: #BB86FC;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      color: #BB86FC;
+    }
+    a {
+      color: #03DAC6;
+    }
+    .proyecto {
+      background-color: #1E1E1E;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    ul li {
+      margin: 10px 0;
+    }
+
+    /* Responsividad */
+    @media screen and (max-width: 768px) {
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+      section {
+        padding: 20px 15px;
+      }
+      header, footer {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Santiago [Apellido]</h1>
+    <p>Analista de Datos | Data Scientist | Entusiasta del ML</p>
+    <nav>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Profesional con experiencia en mantenimiento industrial migrando al mundo del análisis de datos. Con conocimientos en Python, Power BI, SQL y visualización de datos. Busco integrar equipos de data science con foco en resultados de negocio.</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <h3>Informe de Ventas y Rentabilidad</h3>
+      <p>Análisis completo de elasticidades, segmentación de clientes, recomendaciones y dashboard interactivo en Power BI.</p>
+      <a href="https://github.com/usuario/proyecto-ventas" target="_blank">Ver en GitHub</a>
+    </div>
+
+    <div class="proyecto">
+      <h3>Automatización de OCR para niveles de tanque</h3>
+      <p>Pipeline en Python que lee imágenes de reportes, extrae los datos con OCR y actualiza una planilla Excel de forma automática.</p>
+      <a href="https://github.com/usuario/ocr-tanques" target="_blank">Ver en GitHub</a>
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Lenguajes: Python, SQL</li>
+      <li>Herramientas: Power BI, Tableau, Qlik Sense, Excel</li>
+      <li>ML: scikit-learn, pandas, matplotlib</li>
+      <li>Otros: Git, Web Scraping, Automatización de procesos</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📧 <a href="mailto:santi.datoscv@gmail.com">santi.datoscv@gmail.com</a></p>
+    <p>🔗 <a href="https://linkedin.com/in/tuusuario">LinkedIn</a> | <a href="https://github.com/tuusuario">GitHub</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Santiago [Apellido]. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
